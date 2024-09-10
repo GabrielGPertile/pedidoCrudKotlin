@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp" >
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"/>
+    
+    <EditText
+        android:id="@+id/etPreco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Preco"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/etQuantidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantidade"
+        android:inputType="number" />
+    
+    <EditText
+        android:id="@+id/etPrecoTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Preco Total"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnAdicionar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Cliente"
+        android:layout_gravity="center" />
+
+    <ListView
+        android:id="@+id/listViewPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
